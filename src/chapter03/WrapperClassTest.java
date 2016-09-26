@@ -1,4 +1,4 @@
-package chater03;
+package chapter03;
 
 public class WrapperClassTest {
 

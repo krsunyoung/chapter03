@@ -1,4 +1,4 @@
-package chater03;
+package chapter03;
 
 import java.util.HashMap;
 import java.util.Iterator;

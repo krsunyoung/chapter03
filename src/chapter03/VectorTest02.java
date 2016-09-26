@@ -1,14 +1,13 @@
-package chater03;
+package chapter03;
 
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
-public class LinkedListTest {
+public class VectorTest02 {
 
 	public static void main(String[] args) {
-		List<String> list  = new LinkedList<String>();
+		List<String> list  = new Vector<String>();
 		list.add("둘리");
 		list.add("도우넛");
 		list.add("마이콜");

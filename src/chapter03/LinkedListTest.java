@@ -1,13 +1,14 @@
-package chater03;
+package chapter03;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
-public class ArrayListTest {
+public class LinkedListTest {
 
 	public static void main(String[] args) {
-		List<String> list  = new ArrayList<String>();
+		List<String> list  = new LinkedList<String>();
 		list.add("둘리");
 		list.add("도우넛");
 		list.add("마이콜");
@@ -32,7 +33,7 @@ public class ArrayListTest {
 		for(String s : list){
 			System.out.println( s );
 		}
-		
+
 	}
-	
+
 }

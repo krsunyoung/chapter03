@@ -1,13 +1,13 @@
-package chater03;
+package chapter03;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Vector;
 
-public class VectorTest02 {
+public class ArrayListTest {
 
 	public static void main(String[] args) {
-		List<String> list  = new Vector<String>();
+		List<String> list  = new ArrayList<String>();
 		list.add("둘리");
 		list.add("도우넛");
 		list.add("마이콜");
@@ -32,7 +32,7 @@ public class VectorTest02 {
 		for(String s : list){
 			System.out.println( s );
 		}
-
+		
 	}
-
+	
 }
