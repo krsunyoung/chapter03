@@ -8,6 +8,7 @@ public class ArrayListTest {
 
 	public static void main(String[] args) {
 		List<String> list  = new ArrayList<String>();
+		// ArrayList는 배열로 생각하면 거의된다. 중간 삽입은 어렵지만 조회가 빠르다. 
 		list.add("둘리");
 		list.add("도우넛");
 		list.add("마이콜");
